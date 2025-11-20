@@ -1,0 +1,16 @@
+# Precompiled headers
+*.gch
+*.pch
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+bin/

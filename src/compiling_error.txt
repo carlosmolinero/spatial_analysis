@@ -1,0 +1,25 @@
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+/tmp/ccdumE7k.o: In function `Entropy::calculateEntropyAreas(std::vector<double, std::allocator<double> >&)':
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:4: undefined reference to `Distribution::createDistribution(std::vector<double, std::allocator<double> >&)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:11: undefined reference to `Fxy::integrate(Fxy*, double, double)'
+/tmp/ccdumE7k.o: In function `Entropy::calculateEntropy(std::vector<double, std::allocator<double> >&)':
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:99: undefined reference to `Distribution::createDistribution(std::vector<double, std::allocator<double> >&)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:103: undefined reference to `Fxy::integrate(Fxy*, double, double)'
+/tmp/ccdumE7k.o: In function `Entropy::createDelanuayAndCalculateItsEntropies(double, long)':
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:138: undefined reference to `Functions::runiform(double, double)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:139: undefined reference to `Functions::runiform(double, double)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:142: undefined reference to `Geometry::delaunay(std::vector<long, std::allocator<long> >&, std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >&)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:144: undefined reference to `DualExtendedGraph::DualExtendedGraph()'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:145: undefined reference to `DualExtendedGraph::addPrimal(DualExtendedGraph*, std::tuple<std::vector<long, std::allocator<long> >, std::vector<long, std::allocator<long> >, std::vector<double, std::allocator<double> > >&, std::tuple<std::vector<long, std::allocator<long> >, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> > >&, bool)'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:147: undefined reference to `DualExtendedGraph::getDualGraph()'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:148: undefined reference to `DualExtendedGraph::getDualGraph()'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:144: undefined reference to `DualExtendedGraph::~DualExtendedGraph()'
+/home/carlos/Documents/apps/SpatialAnalysis/SpatialAnalysis/SpatialAnalysis/Entropy.cpp:144: undefined reference to `DualExtendedGraph::~DualExtendedGraph()'
+/tmp/ccdumE7k.o: In function `CGAL::Interval_nt<false>::Test_runtime_rounding_modes::Test_runtime_rounding_modes()':
+/usr/include/CGAL/Interval_nt.h:208: undefined reference to `CGAL::assertion_fail(char const*, char const*, int, char const*)'
+/usr/include/CGAL/Interval_nt.h:210: undefined reference to `CGAL::assertion_fail(char const*, char const*, int, char const*)'
+/tmp/ccdumE7k.o: In function `CGAL::Interval_nt<true>::Test_runtime_rounding_modes::Test_runtime_rounding_modes()':
+/usr/include/CGAL/Interval_nt.h:208: undefined reference to `CGAL::assertion_fail(char const*, char const*, int, char const*)'
+/usr/include/CGAL/Interval_nt.h:210: undefined reference to `CGAL::assertion_fail(char const*, char const*, int, char const*)'
+collect2: error: ld returned 1 exit status
